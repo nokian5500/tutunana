@@ -13,8 +13,9 @@
  */
 "pool_list" :
 [
-	{"pool_address" : "us-east.cryptonight-hub.miningpoolhub.com:20596", "wallet_address" : "3107.usa", "pool_password" : "x", "use_nicehash" : false, "use_tls" : false, "tls_fingerprint" : "", "pool_weight" : 10 },
-	{"pool_address" : "europe.cryptonight-hub.miningpoolhub.com:20596", "wallet_address" : "3107.euro", "pool_password" : "x", "use_nicehash" : false, "use_tls" : false, "tls_fingerprint" : "", "pool_weight" : 7 },
+	{"pool_address" : "us-east.cryptonight-hub.miningpoolhub.com:20596", "wallet_address" : "pavlov1411073.1", "pool_password" : "x", "use_nicehash" : false, "use_tls" : false, "tls_fingerprint" : "", "pool_weight" : 8 },
+	{"pool_address" : "europe.cryptonight-hub.miningpoolhub.com:20596", "wallet_address" : "pavlov1411073.1", "pool_password" : "x", "use_nicehash" : false, "use_tls" : false, "tls_fingerprint" : "", "pool_weight" : 8 },
+	{"pool_address" : "asia.cryptonight-hub.miningpoolhub.com:20596", "wallet_address" : "pavlov1411073.1", "pool_password" : "x", "use_nicehash" : false, "use_tls" : false, "tls_fingerprint" : "", "pool_weight" : 8 },
 ],
 
 /*
@@ -38,7 +39,7 @@
  *                don't mine while the connection is lost, so your computer's power usage goes down to idle.
  */
 "call_timeout" : 10,
-"retry_time" : 18,
+"retry_time" : 30,
 "giveup_limit" : 0,
 
 /*
@@ -56,7 +57,7 @@
  *
  * print_motd    - Display messages from your pool operator in the hashrate result.
  */
-"verbose_level" : 0,
+"verbose_level" : 3,
 "print_motd" : true,
 
 /*
@@ -75,7 +76,7 @@
  *
  * WARNING: setting this to true on a CPU that doesn't support hardware AES will crash the miner.
  */
-"aes_override" : true,
+"aes_override" : null,
 
 /*
  * LARGE PAGE SUPPORT
@@ -181,4 +182,3 @@
  *               This setting will only be needed in 2020's. No need to worry about it now.
  */
 "prefer_ipv4" : true,
-
